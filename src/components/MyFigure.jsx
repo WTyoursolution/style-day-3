@@ -2,15 +2,15 @@ import Figure from 'react-bootstrap/Figure';
 
 function MyFigure() {
   return (
-    <Figure>
+    <Figure className='image d-flex flex-column align-items-center'>
       <Figure.Image
-        width={200}
-        height={200}
+        width={400}
+        height={400}
         alt="myMountainImage"
         src="/mountainImg.jpg"
       />
-      <Figure.Caption>
-        Nulla vitae elit libero, a pharetra augue mollis interdum.
+      <Figure.Caption className='imageCaption'>
+        Beautiful image of clouds wrapping mountains
       </Figure.Caption>
     </Figure>
   );

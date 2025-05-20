@@ -1,0 +1,36 @@
+$primary: #9cafe3;
+$secondary: #facc15;
+$accent: #10b981;
+$muted: #e5e7eb;
+$highlight: #f3d2d2;
+
+
+//section-1
+body {
+    background-color: $primary;
+    margin: 1rem;
+
+    h1 {
+       color: $muted;
+    }
+}
+
+
+
+//section-2
+.navBar {
+    color: $muted;
+    cursor: pointer;
+    font-weight: bold;
+
+&:hover {
+    color: $highlight;
+}
+
+}
+
+.imageCaption {
+    color: $muted;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+}
